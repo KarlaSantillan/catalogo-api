@@ -1,0 +1,26 @@
+{
+  "name": "catalogo-api",
+  "version": "1.0.0",
+  "description": "API REST de catálogo de productos y favoritos personales con Express, PostgreSQL, JWT y roles",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node scripts/init-db.js",
+    "crear-admin": "node scripts/crear-admin.js",
+    "token:vencido": "node scripts/generar-token-vencido.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["express", "postgresql", "jwt", "api-rest"],
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.0"
+  }
+}
