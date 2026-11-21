@@ -7,7 +7,7 @@ API desarrollada con **Node.js + Express + PostgreSQL** que gestiona un catálog
 | Integrante | Usuario de GitHub | Aportes principales |
 |---|---|---|
 | Karla Santillan | @KarlaSantillan | Base de datos (esquema SQL y datos de ejemplo), capa de acceso a datos, CRUD de productos, validaciones, README |
-| Leo Santillan | @Leomoyotam | Registro e inicio de sesión, JWT, middlewares de autenticación y roles, favoritos, colección de Postman |
+| Leo Moyota | @Leomoyotam | Registro e inicio de sesión, JWT, middlewares de autenticación y roles, favoritos, colección de Postman |
 
 ## Propósito
 
